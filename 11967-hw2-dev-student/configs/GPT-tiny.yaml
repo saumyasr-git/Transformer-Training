@@ -9,7 +9,7 @@ device: auto                  # <- which device to put the model on (YOU DO NOT 
 batch_size: 128                # <- number of sequences to feed into the model at a time
 seq_len: 64                  # <- length of each sequence in training and evaluation, <= model_config.n_positions
 num_warmup_steps: 10          # <- number of warmup steps in cosine annealing
-num_training_steps: 3000      # <- number of training steps in cosine annealing
+num_training_steps: 5000      # <- number of training steps in cosine annealing
 grad_accumulation_steps: 1   # <- number of micro steps of gradient accumulation before every model update
 min_lr: 0.000001                # <- minimum learning rate in cosine annealing
 max_lr: 0.0015          # <- maximum learning rate in cosine annealing
