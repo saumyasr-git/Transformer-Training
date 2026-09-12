@@ -2,7 +2,7 @@ output_dir: outputs/GPT-tiny  # <- where the output files are written
 tokenizer_encoding: gpt2      # <- the tokenizer encoding, used by tiktoken (YOU SHOULD NOT CHANGE THIS)
 model_config:
   n_embd: 80                  # <- dimension of token and positional embeddings 
-  n_head: 16                 # <- number of attention heads in multihead attention
+  n_head: 12                 # <- number of attention heads in multihead attention
   n_positions: 128            # <- the maximum number of tokens that the model can take
   n_layer: 8                 # <- number of decoder blocks
 device: auto                  # <- which device to put the model on (YOU DO NOT NEED TO CHANGE THIS)
