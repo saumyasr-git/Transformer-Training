@@ -166,7 +166,6 @@ data/*
 !data/english-tokenizer.json
 !data/hidden.npy
 !data/docs.jsonl
-outputs/
 wandb/
 slurm*
 .ruff_cache/
